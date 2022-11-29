@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E91AF6EF2936B55300A470A1 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AF6EE2936B55300A470A1 /* Tests_iOS.swift */; };
+		E91AF6F12936B55300A470A1 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AF6F02936B55300A470A1 /* Tests_iOSLaunchTests.swift */; };
+		E91AF6FB2936B55300A470A1 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AF6FA2936B55300A470A1 /* Tests_macOS.swift */; };
+		E91AF6FD2936B55300A470A1 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AF6FC2936B55300A470A1 /* Tests_macOSLaunchTests.swift */; };
+		E91AF6FE2936B55300A470A1 /* PeakCinemaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AF6D62936B55200A470A1 /* PeakCinemaApp.swift */; };
+		E91AF6FF2936B55300A470A1 /* PeakCinemaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AF6D62936B55200A470A1 /* PeakCinemaApp.swift */; };
+		E91AF7002936B55300A470A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AF6D72936B55200A470A1 /* ContentView.swift */; };
+		E91AF7012936B55300A470A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AF6D72936B55200A470A1 /* ContentView.swift */; };
+		E91AF7022936B55300A470A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91AF6D82936B55300A470A1 /* Assets.xcassets */; };
+		E91AF7032936B55300A470A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91AF6D82936B55300A470A1 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E91AF6EB2936B55300A470A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91AF6D12936B55200A470A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91AF6DC2936B55300A470A1;
+			remoteInfo = "PeakCinema (iOS)";
+		};
+		E91AF6F72936B55300A470A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91AF6D12936B55200A470A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91AF6E22936B55300A470A1;
+			remoteInfo = "PeakCinema (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E91AF6D62936B55200A470A1 /* PeakCinemaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeakCinemaApp.swift; sourceTree = "<group>"; };
+		E91AF6D72936B55200A470A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E91AF6D82936B55300A470A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E91AF6DD2936B55300A470A1 /* PeakCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeakCinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91AF6E32936B55300A470A1 /* PeakCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeakCinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91AF6E52936B55300A470A1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E91AF6EA2936B55300A470A1 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91AF6EE2936B55300A470A1 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		E91AF6F02936B55300A470A1 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		E91AF6F62936B55300A470A1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91AF6FA2936B55300A470A1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		E91AF6FC2936B55300A470A1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E91AF6DA2936B55300A470A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91AF6E02936B55300A470A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91AF6E72936B55300A470A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91AF6F32936B55300A470A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E91AF6D02936B55200A470A1 = {
+			isa = PBXGroup;
+			children = (
+				E91AF6D52936B55200A470A1 /* Shared */,
+				E91AF6E42936B55300A470A1 /* macOS */,
+				E91AF6ED2936B55300A470A1 /* Tests iOS */,
+				E91AF6F92936B55300A470A1 /* Tests macOS */,
+				E91AF6DE2936B55300A470A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E91AF6D52936B55200A470A1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E91AF6D62936B55200A470A1 /* PeakCinemaApp.swift */,
+				E91AF6D72936B55200A470A1 /* ContentView.swift */,
+				E91AF6D82936B55300A470A1 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E91AF6DE2936B55300A470A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E91AF6DD2936B55300A470A1 /* PeakCinema.app */,
+				E91AF6E32936B55300A470A1 /* PeakCinema.app */,
+				E91AF6EA2936B55300A470A1 /* Tests iOS.xctest */,
+				E91AF6F62936B55300A470A1 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E91AF6E42936B55300A470A1 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E91AF6E52936B55300A470A1 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		E91AF6ED2936B55300A470A1 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E91AF6EE2936B55300A470A1 /* Tests_iOS.swift */,
+				E91AF6F02936B55300A470A1 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		E91AF6F92936B55300A470A1 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E91AF6FA2936B55300A470A1 /* Tests_macOS.swift */,
+				E91AF6FC2936B55300A470A1 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E91AF6DC2936B55300A470A1 /* PeakCinema (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91AF7062936B55300A470A1 /* Build configuration list for PBXNativeTarget "PeakCinema (iOS)" */;
+			buildPhases = (
+				E91AF6D92936B55300A470A1 /* Sources */,
+				E91AF6DA2936B55300A470A1 /* Frameworks */,
+				E91AF6DB2936B55300A470A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PeakCinema (iOS)";
+			productName = "PeakCinema (iOS)";
+			productReference = E91AF6DD2936B55300A470A1 /* PeakCinema.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E91AF6E22936B55300A470A1 /* PeakCinema (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91AF7092936B55300A470A1 /* Build configuration list for PBXNativeTarget "PeakCinema (macOS)" */;
+			buildPhases = (
+				E91AF6DF2936B55300A470A1 /* Sources */,
+				E91AF6E02936B55300A470A1 /* Frameworks */,
+				E91AF6E12936B55300A470A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PeakCinema (macOS)";
+			productName = "PeakCinema (macOS)";
+			productReference = E91AF6E32936B55300A470A1 /* PeakCinema.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E91AF6E92936B55300A470A1 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91AF70C2936B55300A470A1 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				E91AF6E62936B55300A470A1 /* Sources */,
+				E91AF6E72936B55300A470A1 /* Frameworks */,
+				E91AF6E82936B55300A470A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91AF6EC2936B55300A470A1 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = E91AF6EA2936B55300A470A1 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E91AF6F52936B55300A470A1 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91AF70F2936B55300A470A1 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				E91AF6F22936B55300A470A1 /* Sources */,
+				E91AF6F32936B55300A470A1 /* Frameworks */,
+				E91AF6F42936B55300A470A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91AF6F82936B55300A470A1 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = E91AF6F62936B55300A470A1 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E91AF6D12936B55200A470A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E91AF6DC2936B55300A470A1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					E91AF6E22936B55300A470A1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					E91AF6E92936B55300A470A1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E91AF6DC2936B55300A470A1;
+					};
+					E91AF6F52936B55300A470A1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E91AF6E22936B55300A470A1;
+					};
+				};
+			};
+			buildConfigurationList = E91AF6D42936B55200A470A1 /* Build configuration list for PBXProject "PeakCinema" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E91AF6D02936B55200A470A1;
+			productRefGroup = E91AF6DE2936B55300A470A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E91AF6DC2936B55300A470A1 /* PeakCinema (iOS) */,
+				E91AF6E22936B55300A470A1 /* PeakCinema (macOS) */,
+				E91AF6E92936B55300A470A1 /* Tests iOS */,
+				E91AF6F52936B55300A470A1 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E91AF6DB2936B55300A470A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91AF7022936B55300A470A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91AF6E12936B55300A470A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91AF7032936B55300A470A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91AF6E82936B55300A470A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91AF6F42936B55300A470A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E91AF6D92936B55300A470A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91AF7002936B55300A470A1 /* ContentView.swift in Sources */,
+				E91AF6FE2936B55300A470A1 /* PeakCinemaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91AF6DF2936B55300A470A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91AF7012936B55300A470A1 /* ContentView.swift in Sources */,
+				E91AF6FF2936B55300A470A1 /* PeakCinemaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91AF6E62936B55300A470A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91AF6F12936B55300A470A1 /* Tests_iOSLaunchTests.swift in Sources */,
+				E91AF6EF2936B55300A470A1 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91AF6F22936B55300A470A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91AF6FD2936B55300A470A1 /* Tests_macOSLaunchTests.swift in Sources */,
+				E91AF6FB2936B55300A470A1 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E91AF6EC2936B55300A470A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91AF6DC2936B55300A470A1 /* PeakCinema (iOS) */;
+			targetProxy = E91AF6EB2936B55300A470A1 /* PBXContainerItemProxy */;
+		};
+		E91AF6F82936B55300A470A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91AF6E22936B55300A470A1 /* PeakCinema (macOS) */;
+			targetProxy = E91AF6F72936B55300A470A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E91AF7042936B55300A470A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E91AF7052936B55300A470A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E91AF7072936B55300A470A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = XavierLoeraFlores.PeakCinema;
+				PRODUCT_NAME = PeakCinema;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E91AF7082936B55300A470A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = XavierLoeraFlores.PeakCinema;
+				PRODUCT_NAME = PeakCinema;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E91AF70A2936B55300A470A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = XavierLoeraFlores.PeakCinema;
+				PRODUCT_NAME = PeakCinema;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E91AF70B2936B55300A470A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = XavierLoeraFlores.PeakCinema;
+				PRODUCT_NAME = PeakCinema;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E91AF70D2936B55300A470A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XavierLoeraFlores.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PeakCinema (iOS)";
+			};
+			name = Debug;
+		};
+		E91AF70E2936B55300A470A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XavierLoeraFlores.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PeakCinema (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E91AF7102936B55300A470A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XavierLoeraFlores.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "PeakCinema (macOS)";
+			};
+			name = Debug;
+		};
+		E91AF7112936B55300A470A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XavierLoeraFlores.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "PeakCinema (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E91AF6D42936B55200A470A1 /* Build configuration list for PBXProject "PeakCinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91AF7042936B55300A470A1 /* Debug */,
+				E91AF7052936B55300A470A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91AF7062936B55300A470A1 /* Build configuration list for PBXNativeTarget "PeakCinema (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91AF7072936B55300A470A1 /* Debug */,
+				E91AF7082936B55300A470A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91AF7092936B55300A470A1 /* Build configuration list for PBXNativeTarget "PeakCinema (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91AF70A2936B55300A470A1 /* Debug */,
+				E91AF70B2936B55300A470A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91AF70C2936B55300A470A1 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91AF70D2936B55300A470A1 /* Debug */,
+				E91AF70E2936B55300A470A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91AF70F2936B55300A470A1 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91AF7102936B55300A470A1 /* Debug */,
+				E91AF7112936B55300A470A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E91AF6D12936B55200A470A1 /* Project object */;
+}
